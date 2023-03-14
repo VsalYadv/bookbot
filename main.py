@@ -7,7 +7,6 @@ def main ():
 
     print(f"--- Begin report of {file_path} ---")
     print(f"{no_of_words} words found in the document")
-    print()
 
     for item in char_list:
         if not item["char"].isalpha():
